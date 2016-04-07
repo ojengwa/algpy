@@ -13,8 +13,8 @@ class Fraction(object):
             numerator (int): The numerator or top part of the fraction
             denominator (int): The denominator or bottom part of the fraction
         """
-        self.top = numerator
-        self.bottom = denominator
+        self.numerator = numerator
+        self.denominator = denominator
 
     def __str__(self):
         """
